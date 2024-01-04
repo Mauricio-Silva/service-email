@@ -25,7 +25,7 @@ SUBJECT_VALIDATOR = Annotated[str, constr(
     strip_whitespace=True,
     min_length=3,
     max_length=70,
-    #pattern=NAME_REGEX
+    # pattern=NAME_REGEX
 )]
 
 URL_VALIDATOR = Annotated[str, constr(
